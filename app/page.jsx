@@ -9,10 +9,10 @@ import Stats from "@/components/Stats";
 const Home = () => {
   return( 
     <section className="h-full">
-      <div className = "container mx-auto">homepage</div>
+      <div className = "container mx-auto">
       <div className = "flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
         {/*text*/}
-        <div className="text-center xl:text-left order-2 xl:order-bobe">
+        <div className="text-center xl:text-left order-1 xl:order-none">
           <span className = "text-xl">Software Developer</span>
           <h1 className = "h1">
             Hello I'm <br /> <span className = "text-accent">Nunzio D'Amelio</span>
@@ -33,9 +33,10 @@ const Home = () => {
             </div>
           </div>
         </div>
-        {/*phot*/}
+        {/*photo*/}
         <div className="order-1 xl:order-none mb-8 xl:mb-0">
           <Photo />
+        </div>
         </div>
       </div>
       <Stats />
