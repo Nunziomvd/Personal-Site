@@ -20,7 +20,7 @@ const Photo = () => {
                 transition: {delay:2, duration:0.4, ease:"easeIn"},}}
             className = "w-[298px] h-[298px] xl:w-[498px] xl:h-[498px] mix-blend-lighten absolute">
                 <Image 
-                    src="/assets/photo.png" 
+                    src="/assets/file.png" 
                     priority quality={100} 
                     fill
                     alt = "" 
@@ -34,7 +34,7 @@ const Photo = () => {
                 viewBox="0 0 506 506"
                 xmlns ="http://www.w3.org/2000/svg"
             >
-                <motion.circle cx="253" cy="253" r="250" stroke="#00ff99" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"
+                <motion.circle cx="253" cy="253" r="250" stroke="#6252f2" strokeWidth="4" strokeLinecap="round" strokeLinejoin="round"
                 intitial={{strokeDasharray: "24 10 0 0"}}
                 animate={{
                     strokeDasharray:["15 120 25 25", "16 25 92 72", "4 250 22 22"],

@@ -12,14 +12,14 @@ const services = [
   },
   {
     num:"02",
-    title:"Web Development",
-    description:"Blah blah blah",
-    href:""
+    title:"Personal Site",
+    description:"The Site you see now, developed using React.js and Tailwind.css",
+    href:"https://github.com/Nunziomvd/Personal-Site"
   },
   {
     num:"03",
-    title:"Web Development",
-    description:"Blah blah blah",
+    title:"C Interpreter",
+    description:"Created a High Level Languaged interpreter using C that is able to handle dynaimc arrays, hash tables, garbage collection, and more",
     href:""
   },
   {

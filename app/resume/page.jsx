@@ -5,8 +5,13 @@ import{
   FaCss3,
   FaJs,
   FaReact,
-  FaFigma,
   FaNodeJs,
+  FaGithub,
+  FaGit,
+  FaLinux,
+  FaWindows,
+  FaJava,
+  FaPython,
 }from "react-icons/fa";
 
 import{
@@ -17,7 +22,7 @@ import{
 //about data
 const about = {
   title: "About me",
-  description: "Im nunzio damelio",
+  description: "Get to know a little about me.",
   info:[
     {
       fieldName:"Name",
@@ -40,7 +45,7 @@ const about = {
       fieldValue:"Italian/American"
     },
     {
-      fieldName:"Freelance",
+      fieldName:"Work",
       fieldValue:"Available"
     },
     {
@@ -55,32 +60,21 @@ const about = {
 const experience = {
   icon: "/assests/resume/badge.svg",
   title: "My Expierence",
-  description: "fdsafasfas",
+  description: "My expierences come from a great mix of school work and projects, my own personal projects, and opportunties in the work force.",
   item: [
     {
-      company: "Computer Software at The College of New Jersey",
-      position: "Student",
-      duration: "Fall2021 - Spring 2025"
+      company: "WorkWell Partnership",
+      position: "Software Engineer",
+      duration: "Sep2024 - Dec 2024"
 
     },
     {
-      company: "Computer Software at The College of New Jersey",
+      company: "Computer Science @ TCNJ",
       position: "Student",
       duration: "Fall2021 - Spring 2025"
 
     },
-    {
-      company: "Computer Software at The College of New Jersey",
-      position: "Student",
-      duration: "Fall2021 - Spring 2025"
 
-    },
-    {
-      company: "Computer Software at The College of New Jersey",
-      position: "Student",
-      duration: "Fall2021 - Spring 2025"
-
-    },
   ]
 };
 
@@ -88,7 +82,7 @@ const experience = {
 const education = {
   icon: "/assests/resume/cap.svg",
   title: "My Education",
-  description: "fdsafasfas",
+  description: "My education stems mostly from school TCNJ, but I am constantly going out of my way to learn new things and practice on my own.",
   item: [
     {
       institution: "Collge of New Jersey",
@@ -100,14 +94,32 @@ const education = {
       degree: "Back-End Engineer",
       duration: "2024"
     },
+    {
+      institution: "LeetCode",
+      degree: "Data Structures and Algorithms",
+      duration: "2022"
+    },
+    {
+      institution: "LeetCode",
+      degree: "Dynamic Programming",
+      duration: "2022"
+    },
   ]
 }; 
 
 //skilss
 const skills = {
   title: "My Skills",
-  description:"afdsafdsaf",
+  description:"Some but not all of my proficeint technological skills.",
   skillList: [
+    {
+      icon:<FaJava />,
+      name: "java",
+    },
+    {
+      icon:<FaPython />,
+      name: "python",
+    },
     {
       icon:<FaHtml5 />,
       name: "html 5",
@@ -137,9 +149,18 @@ const skills = {
       name: "node.js",
     },
     {
-      icon:<FaFigma />,
-      name: "figma",
+      icon:<FaGithub />,
+      name: "github",
     },
+    {
+      icon:<FaWindows />,
+      name: "windows",
+    },
+    {
+      icon:<FaLinux />,
+      name: "linux",
+    },
+
   ]
 }
 
