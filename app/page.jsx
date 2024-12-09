@@ -10,16 +10,17 @@ const Home = () => {
   return( 
     <section className="h-full">
       <div className = "container mx-auto">
-      <div className = "flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
-        {/*text*/}
-        <div className="text-center xl:text-left order-1 xl:order-none">
-          <span className = "text-xl">Software Developer</span>
-          <h1 className = "h1 text-6xl">
-            Hello I'm <br /> <span className = "text-accent">Nunzio D'Amelio</span>
-          </h1>
-          <p className = "max-w-[500px] mb-9 text-white/80">
-            I excel at developing different programs using various languages and technologies
-          </p>
+      <div className="flex flex-col xl:flex-row items-center justify-between xl:pt-8 xl:pb-24">
+      {/* Text section */}
+      <div className="text-center xl:text-left order-1 xl:order-none space-y-4 xl:space-y-4">
+        <span className="text-xl block">Software Developer</span>
+        <h1 className="h1 text-6xl leading-tight">
+          Hello, I'm <br />
+          <span className="text-accent">Nunzio D'Amelio</span>
+        </h1>
+        <p className="max-w-[500px] mb-9 text-white/80">
+          I excel at developing different programs using various languages and technologies
+        </p>
           {/*btn and socials*/}
           <div className ="flex flex-col xl:felx-row items-center gap-8">
             <Button variant="outline"size="lg"className ="uppercase flex iterms-center gap-2">
