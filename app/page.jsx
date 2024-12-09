@@ -23,10 +23,12 @@ const Home = () => {
         </p>
           {/*btn and socials*/}
           <div className ="flex flex-col xl:felx-row items-center gap-8">
+            <a href = "/assets/Nunzio_Resume.pdf.pdf" download>
             <Button variant="outline"size="lg"className ="uppercase flex iterms-center gap-2">
               <span>Download CV</span>
               <FiDownload className="text-xl" />
             </Button>
+            </a>
             <div className ="mb-8 xl:mb-0">
               <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent
                rounded-full flex justify-center items-center text-accent 

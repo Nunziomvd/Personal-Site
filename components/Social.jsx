@@ -1,5 +1,6 @@
 import Link from "next/link";
 import {FaGithub,FaLinkedin,FaYoutube,FaTwitter} from 'react-icons/fa'
+import { FiDownload } from "react-icons/fi";
 
 const socials = [
     {icon: <FaGithub />,path: 'https://github.com/Nunziomvd?tab=repositories'},
