@@ -63,6 +63,12 @@ const experience = {
   description: "My expierences come from a great mix of school work and projects, my own personal projects, and opportunties in the work force.",
   item: [
     {
+      company: "Millennium Computers",
+      position: "Software Engineer",
+      duration: "Dec2024 - Present"
+
+    },
+    {
       company: "WorkWell Partnership",
       position: "Software Engineer",
       duration: "Sep2024 - Dec 2024"

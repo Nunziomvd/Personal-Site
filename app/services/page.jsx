@@ -7,14 +7,14 @@ const services = [
   {
     num:"01",
     title:"AI Code Tutor",
-    description:"AI tutor that helps with Leetcode problems along with reinforcing critical knowledge",
+    description:"AI tutor built and trained off of GPT-4o that helps students with Leetcode problems by giving suggestions, hints, and reinforces critical knowledge",
     href:"https://github.com/Nunziomvd/AI-Tutor"
   },
   {
     num:"02",
-    title:"Personal Site",
-    description:"The Site you see now, developed using React.js and Tailwind.css",
-    href:"https://github.com/Nunziomvd/Personal-Site"
+    title:"Vehicle Fleet Managment",
+    description:<text>Online SQL database made with react.js and other frameworks that focused on location, status, services of construction vehicles and equipments. <br></br> (Sold, only prototype on github)</text>,
+    href:"https://github.com/Nunziomvd/VFMprototype"
   },
   {
     num:"03",
